@@ -10,9 +10,12 @@ pip install requests
 pip install pyTelegramBotAPI
 ```
 ## Are needed: 
-1.Telegram Bot Token
-2.The Coze Token
-3.ID Coze bot
+1. Telegram Bot Token
+
+2. The Coze Token
+
+3. ID Coze bot
+
 Tokens must be specified in the TELEGRAM_TOKEN and COZE_TOKEN variables, respectively.
 Launch
 To run this code, just run the python command with the file name:
