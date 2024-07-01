@@ -42,8 +42,8 @@ def call_coze_api(user_id, query, chat_history, message=None):
             try:
                 decoded_line = line.decode('utf-8')
                 if decoded_line.startswith("data:"):
-                    decoded_line = decoded_line[5:]  # Убираем префикс "data:"
-                print(f"Decoded Line: {decoded_line}")  # Логирование содержимого строки
+                    decoded_line = decoded_line[5:]  
+                print(f"Decoded Line: {decoded_line}")  # logs
                 json_line = json.loads(decoded_line)
                 if 'message' in json_line:
                     message_content = json_line['message']
